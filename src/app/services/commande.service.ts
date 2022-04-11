@@ -9,7 +9,7 @@ import { plat } from '../model/plat';
 })
 export class CommandeService {
   commandeplatfull:commandeplatfull=new commandeplatfull;
-  private productUrl = 'https://m1p9mean-mickael.herokuapp.com/';
+  private productUrl = 'https://m1p9mean-mickael.herokuapp.com';
   constructor(private http: HttpClient) { }
   
   getlisteplat(): Observable<commandeplatfull[]> {

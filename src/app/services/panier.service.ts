@@ -9,7 +9,7 @@ import {commande} from '../model/commande';
 })
 export class PanierService {
   commande:commande=new commande;
-  private productUrl = 'https://m1p9mean-mickael.herokuapp.com/';
+  private productUrl = 'https://m1p9mean-mickael.herokuapp.com';
   constructor(private http: HttpClient) { }
   
   platpanier:plat[]=[];
