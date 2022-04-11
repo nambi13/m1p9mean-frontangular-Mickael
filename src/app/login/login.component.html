@@ -183,29 +183,29 @@ a {
 
     <div class="login">
         <div *ngIf="error">{{error}}</div>
-        <h2 (click)="connexion()" class="active"> sign in </h2>
+        <h2 (click)="connexion()" class="active"> Connexion</h2>
         
-      <h2 (click)="inscription()" class="nonactive"> sign up </h2>
+      <h2 (click)="inscription()" class="nonactive"> Inscription </h2>
       <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit()">
        
         
     
         <input type="email" class="text" name="username" formControlName="email">
-         <span>username</span>
+         <span>Email</span>
     
         <br>
         
         <br>
     
         <input type="password" class="text" name="password" formControlName="mdp">
-        <span>password</span>
+        <span>Mot de passe</span>
         <br>
     
         <input type="checkbox" id="checkbox-1-1" class="custom-checkbox" />
-        <label for="checkbox-1-1">Keep me Signed in</label>
+       
         
         <button class="signin">
-          Sign In
+          Connexion
         </button>
     
     
