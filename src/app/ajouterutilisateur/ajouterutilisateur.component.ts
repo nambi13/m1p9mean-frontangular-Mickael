@@ -33,7 +33,8 @@ export class AjouterutilisateurComponent implements OnInit {
  //   console.log(this.checkoutForm.value.name);
    // this.checkoutForm.reset();
    this.UtilisateurService.ajouterclient(this.checkoutForm.value).subscribe(data =>{ 
-    console.log(data);
+    //console.log(data);
+    this.router.navigate(['login']);
      // console.log(jsend);
     }, error=>{
      // console.log(error.error);
