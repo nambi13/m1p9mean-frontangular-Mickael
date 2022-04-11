@@ -8,7 +8,7 @@ import {utilisateur} from './model/utilisateur'
   providedIn: 'root'
 })
 export class UtilisateurService {
-  private productUrl = 'http://localhost:2000';  // Base URL to REST API
+  private productUrl = 'https://m1p9mean-mickael.herokuapp.com/';  // Base URL to REST API
   
   constructor(private http: HttpClient) { }
 

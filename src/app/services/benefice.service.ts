@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class BeneficeService {
 
-  private productUrl = 'http://localhost:2000';
+  private productUrl = 'https://m1p9mean-mickael.herokuapp.com/';
   constructor(private http: HttpClient) { }
 
   getlisteplat(): Observable<benefice[]> {
